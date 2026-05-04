@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Helvetica";
+}
+.code{
+	height: 55px;
+	width: 50px;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+.card{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	height: 100vh;
+	margin: 0;
+	border: 1px solid black;
+	border-radius: 10px;
+	gap: 20px;
+	padding: 10px;
+	text-align:center;
+}
+#verification_heading{
+	text-align:center;
+}
+.code-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.code:focus{
+	border: 1px solid blue; 
+}
+
